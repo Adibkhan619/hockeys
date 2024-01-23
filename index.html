@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hockeys</title>
+
+  <!-- daisyui and tailwind cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    .manrope {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
+
+  <!-- custom tailwind config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="manrope">
+  <header class="container my-20 mx-auto ">
+    <section class="mx-auto px-">
+      <div class="carousel mx-auto lg:h-[550px]">
+        <div id="slide1" class="carousel-item relative w-full ">
+          <img src="Images/1.png" class="mx-auto px-5" />
+          <div class="absolute transform -translate-y-1 lg:left-56 left-32 -bottom-1 flex gap-6 scale-50
+                  lg:scale-100 lg:bottom-4">
+            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+            <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full ">
+          <img src="/Images/3.png" class="lg:w-[1170px] mx-auto px-5" />
+          <div
+            class="absolute transform -translate-y-1 lg:left-56 left-32 -bottom-1 flex gap-6 scale-50 lg:scale-100 lg:bottom-4">
+            <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a>
+            <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full ">
+          <img src="/Images/2.png" class="lg:w-[1170px] mx-auto px-5" />
+          <div
+            class="absolute transform -translate-y-1 lg:left-56 left-32 -bottom-1 flex gap-6 scale-50 lg:scale-100 lg:bottom-4">
+            <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a>
+            <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+
+  <main class="container mx-auto">
+    <!-- professionals section -->
+    <div class="text-center mt-32 py-10 space-y-8 border-dashed border-y-4 border-gray-200">
+      <h1 class="text-4xl font-extrabold text-[#131318]">Professional Hockeys Club</h1>
+      <p class="text-base font-medium text-[#13131899] mx-auto ">The professional hockey club boasts skilled
+        players, dedicated coaches, and passionate fans, <br>creating a dynamic atmosphere where excellence, teamwork,
+        and
+        sportsmanship thrive.</p>
+    </div>
+
+    <!-- stat section -->
+
+    <div class="text-center mt-20 flex flex-col lg:flex-row gap-5 lg:w-[1170px] mx-auto">
+      <div class="space-y-7 w-[400px]">
+        <div class="radial-progress text-3xl font-extrabold text-red-500"
+          style="--value:87; --size:10rem; --thickness: 1rem;"><span class="text-black">87%</span></div>
+        <h2 class="text-xl font-semibold text-[#131318]">Prayer Facility</h2>
+        <p class="text-base font-normal text-[#13131899]  lg:w-[250px] mx-auto">Prayer facility in our club is an
+          exclusive addition for pious
+          members</p>
+      </div>
+      <div class="space-y-7 w-[400px]">
+        <div class="radial-progress text-3xl font-extrabold text-green-400"
+          style="--value:95; --size:10rem; --thickness: 1rem;"><span class="text-black">95%</span></div>
+        <h2 class="text-xl font-semibold text-[#131318]">Experienced Coach</h2>
+        <p class="text-base font-normal text-[#13131899] lg:w-[250px] mx-auto">Experienced coach for training and
+          maintaining professional standards</p>
+      </div>
+      <div class="space-y-7 w-[400px]">
+        <div class="radial-progress text-3xl font-extrabold text-orange-300"
+          style="--value:90; --size:10rem; --thickness: 1rem; "><span class="text-black">90%</span></div>
+        <h2 class="text-xl font-semibold text-[#131318]">Senior Player</h2>
+        <p class="text-base font-normal text-[#13131899] lg:w-[250px] mx-auto">Senior players across the world hold our
+          badges with pride</p>
+      </div>
+      <div class="space-y-7 w-[400px]">
+        <div class="radial-progress text-3xl font-extrabold text-blue-400"
+          style="--value:80; --size:10rem; --thickness: 1rem; "><span class="text-black">80%</span></div>
+        <h2 class="text-xl font-semibold text-[#131318]">Training Ground</h2>
+        <p class="text-base font-normal text-[#13131899] lg:w-[250px] mx-auto">World class training ground with top
+          notch facilities</p>
+      </div>
+
+    </div>
+
+    <!-- Program section -->
+    <section>
+      <div class="text-center mt-32 py-10 space-y-8 border-dashed border-y-4 border-gray-200">
+        <h1 class="text-4xl font-extrabold text-[#131318]">Program Sections</h1>
+        <p class="text-base font-medium text-[#13131899] mx-auto ">Our club program fosters skill development, teamwork,
+          and a love for the sport, <br>nurturing future champions</p>
+      </div>
+    </section>
+
+    <!-- program grid section -->
+    <section>
+      <div class="relative z-10">
+        <img src="/Images/2.png" alt="" class="">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute -bottom-5 z-20 space-y-5 m-10">
+          <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+          <p class="text-base font-medium text-white w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+          <button class="btn text-xl font-bold text-white bg-[#FF4240] border-0">Register Now!</button>
+        </div>
+
+      </div>
+
+
+
+      <!-- <div><img src="/Images/3.png" alt=""></div>
+      <div><img src="/Images/4.png" alt=""></div> -->
+    </section>
+  </main>
+  <footer></footer>
+
+
+
+
+
+</body>
+
+</html>
