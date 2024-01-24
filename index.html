@@ -36,8 +36,54 @@
 </head>
 
 <body class="manrope">
+  <!-- navbar -->
+  <div class="container mx-auto pt-8 px-2">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden pl-0">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+        <p class="font-extrabold text-4xl text-black">Hockey<span class="text-red-600">'</span>s</p>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 text-base font-normal text-[#424247]">
+          <li class="text-red-500"><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Pages</a></li>
+          <li><a>Blog</a></li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end ">
+        <img src="/icons/search.svg" alt="" class="px-8 hidden lg:block">
+        <a class="btn bg-red-500 text-white font-bold text-xl">Get Ticket</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
   <header class="container lg:my-20 my-10 mx-auto ">
-    <section class="mx-auto px-">
+    <section class="mx-auto ">
       <div class="carousel mx-auto lg:h-[550px]">
         <div id="slide1" class="carousel-item relative w-full ">
           <img src="Images/1.png" class="mx-auto px-5" />
@@ -80,7 +126,7 @@
 
     <!-- stat section -->
 
-    <div class="text-center lg:mt-20 mt-10 flex flex-col lg:flex-row gap-5 lg:w-[1170px] mx-auto">
+    <div class="text-center lg:mt-20 mt-10 flex flex-col lg:flex-row gap-5 lg:w-[1170px] mx-auto justify-center">
       <div class="space-y-7 w-[400px] px-10 pb-10">
         <div class="radial-progress text-4xl font-extrabold text-red-500"
           style="--value:87; --size:10rem; --thickness: 1rem;"><span class="text-black">87%</span></div>
@@ -115,7 +161,7 @@
 
     <!-- Program section -->
     <section>
-      <div class="text-center lg:mt-32 my-16 py-10 space-y-8 border-dashed border-y-4 border-gray-200">
+      <div class="text-center lg:mt-24 my-16 py-10 space-y-8 border-dashed border-y-4 border-gray-200">
         <h1 class="text-4xl font-extrabold text-[#131318]">Program Sections</h1>
         <p class="text-base font-medium text-[#13131899] mx-auto ">Our club program fosters skill development, teamwork,
           and a love for the sport, <br>nurturing future champions</p>
@@ -525,7 +571,7 @@
           <li>Hockeys for kids</li>
           <li>Hockeys for Adult</li>
         </ul>
-      
+
       </nav>
     </div>
   </footer>
